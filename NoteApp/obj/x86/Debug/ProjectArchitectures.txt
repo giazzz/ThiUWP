@@ -1,1 +1,1 @@
-C:\Users\tvngi\source\repos\NoteApp\NoteApp\NoteApp.csproj;x86
+C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\NoteApp.csproj;x86

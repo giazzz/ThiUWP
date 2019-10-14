@@ -4098,7 +4098,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -8157,11 +8157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tvngi\\source\\repos\\NoteApp\\NoteApp\\NoteApp.csproj",
+      "projectUniqueName": "C:\\Users\\tvngi\\OneDrive\\Desktop\\NoteApp\\ThiUWP\\NoteApp\\NoteApp.csproj",
       "projectName": "NoteApp",
-      "projectPath": "C:\\Users\\tvngi\\source\\repos\\NoteApp\\NoteApp\\NoteApp.csproj",
+      "projectPath": "C:\\Users\\tvngi\\OneDrive\\Desktop\\NoteApp\\ThiUWP\\NoteApp\\NoteApp.csproj",
       "packagesPath": "C:\\Users\\tvngi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tvngi\\source\\repos\\NoteApp\\NoteApp\\obj\\",
+      "outputPath": "C:\\Users\\tvngi\\OneDrive\\Desktop\\NoteApp\\ThiUWP\\NoteApp\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

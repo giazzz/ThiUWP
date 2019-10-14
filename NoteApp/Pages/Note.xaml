@@ -16,7 +16,8 @@
                 <ColumnDefinition Width="0.5*"/>
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="0" x:Name="menu">
-                <ListView x:Name="listNote">
+                
+                <ListView x:Name="listNote" ItemsSource="{x:Bind listNotezzz}">
                     <ListView.ItemTemplate>
                         <DataTemplate x:DataType="entity:NoteItem">
                             <StackPanel Margin="0,10,0,10" Orientation="Horizontal" Tapped="StackPanel_Tapped" Tag="{Binding}">
@@ -25,6 +26,7 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
+                
             </StackPanel>
             <StackPanel Grid.Column="1" x:Name="note">
                 <TextBlock>Note</TextBlock>

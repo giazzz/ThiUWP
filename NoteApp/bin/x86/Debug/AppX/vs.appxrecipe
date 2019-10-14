@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-I4SEJFU</Machine>
+    <Machine>DESKTOP-NJEP0PE</Machine>
     <WindowsUser>tvngi</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>da321479-3326-4e2a-8f13-9caab6835e02</PackageIdentityName>
     <PackageIdentityPublisher>CN=tvngi</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\tvngi\source\repos\NoteApp\NoteApp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\tvngi\source\repos\NoteApp\NoteApp\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>242D7EB8FDAD14C317F22F27ADDA745356BC260AA968FDDCB8C0A55C3DEB8F17</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>6F66BB34BD54E350E70FA5E4DBD6CD448FFBF740B01C6FB741DA0F0B3308CAAF</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>da321479-3326-4e2a-8f13-9caab6835e02_1.0.0.0_x86__rxk72sh1t7s30</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>da321479-3326-4e2a-8f13-9caab6835e02_rxk72sh1t7s30!App</RegisteredUserModeAppID>
     <RegisteredPackageID>da321479-3326-4e2a-8f13-9caab6835e02</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-14T13:27:39.307</Modified>
+      <Modified>2019-10-14T17:03:25.947</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\bin\x86\Debug\NoteApp.exe">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\bin\x86\Debug\NoteApp.exe">
       <PackagePath>entrypoint\NoteApp.exe</PackagePath>
-      <Modified>2019-10-14T13:27:38.715</Modified>
+      <Modified>2019-10-14T17:03:25.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,71 +46,71 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-10-14T12:09:40.785</Modified>
+      <Modified>2019-10-14T15:38:45.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-09-24T11:45:44.876</Modified>
+      <Modified>2019-10-14T15:38:45.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-24T11:45:44.876</Modified>
+      <Modified>2019-10-14T15:38:45.217</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-24T11:45:44.876</Modified>
+      <Modified>2019-10-14T15:38:45.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-24T11:45:44.876</Modified>
+      <Modified>2019-10-14T15:38:45.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-24T11:45:44.876</Modified>
+      <Modified>2019-10-14T15:38:45.219</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-24T11:45:44.876</Modified>
+      <Modified>2019-10-14T15:38:45.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-24T11:45:44.876</Modified>
+      <Modified>2019-10-14T15:38:45.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\bin\x86\Debug\NoteApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\bin\x86\Debug\NoteApp.xr.xml">
       <PackagePath>NoteApp.xr.xml</PackagePath>
-      <Modified>2019-10-14T13:10:10.591</Modified>
+      <Modified>2019-10-14T17:03:24.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-10-14T13:27:38.060</Modified>
+      <Modified>2019-10-14T17:03:24.951</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-10-14T13:27:38.061</Modified>
+      <Modified>2019-10-14T17:03:24.951</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\bin\x86\Debug\Pages\Note.xbf">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\bin\x86\Debug\Pages\Note.xbf">
       <PackagePath>Pages\Note.xbf</PackagePath>
-      <Modified>2019-10-14T13:27:38.061</Modified>
+      <Modified>2019-10-14T17:03:24.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-10-14T12:36:56.626</Modified>
+      <Modified>2019-10-14T15:42:41.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tvngi\source\repos\NoteApp\NoteApp\bin\x86\Debug\Core\NoteApp.exe">
+    <AppxPackagedFile Include="C:\Users\tvngi\OneDrive\Desktop\NoteApp\ThiUWP\NoteApp\bin\x86\Debug\Core\NoteApp.exe">
       <PackagePath>NoteApp.exe</PackagePath>
-      <Modified>2019-10-14T13:27:39.302</Modified>
+      <Modified>2019-10-14T17:03:25.938</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

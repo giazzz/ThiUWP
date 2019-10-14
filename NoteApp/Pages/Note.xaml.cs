@@ -26,7 +26,7 @@ namespace NoteApp.Pages
     /// </summary>
     public sealed partial class Note : Page
     {
-        ObservableCollection<String> list;
+        private ObservableCollection<NoteItem> listNotezzz { get; set; }
         public Note()
         {
             this.InitializeComponent();
@@ -36,22 +36,42 @@ namespace NoteApp.Pages
             {
                 return;
             }
+            this.listNotezzz = new ObservableCollection<NoteItem>();
             for (int i = 0; i < files.Count; i++)
             {
-                this.list.Add(files[i].Name);
+                //var a = new Button();
+                //a.Content = files[i].Name;
+                //a.Click +=  (s, e) => {
+                //    var button = s as Button;
+                //    var note = ReadNoteFromLocalStorage(button.Content.ToString());
+                //    this.noteEdit.Text = note;
+                //};
+                //this.menu.Children.Add(a);
+                this.listNotezzz.Add(new NoteItem()
+                {
+                    nameFile = files[i].Name
+
+                });
             }
 
 
         }
 
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string name = DateTime.Now.ToString("yyyy-MM-dd-H-mm");
+
             if (this.noteEdit.Text == null)
             {
                 Message.FalseDialog();
             }
             SaveNoteToLocalStorage(this.noteEdit.Text, name);
+            this.listNotezzz.Add(new NoteItem()
+            {
+                nameFile = name+".txt"
+
+            });
             Message.SuccessfullDialog();
         }
         private void SaveNoteToLocalStorage(string note, string fileName)
@@ -69,7 +89,7 @@ namespace NoteApp.Pages
             try
             {
                 Windows.Storage.StorageFolder storageFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
-                Windows.Storage.StorageFile noteFile = storageFolder.GetFileAsync(fileName+".txt").GetAwaiter().GetResult();
+                Windows.Storage.StorageFile noteFile = storageFolder.GetFileAsync(fileName).GetAwaiter().GetResult();
                 Debug.WriteLine(noteFile.Path);
                 var note = Windows.Storage.FileIO.ReadTextAsync(noteFile).GetAwaiter().GetResult();
                 return note;
@@ -84,9 +104,10 @@ namespace NoteApp.Pages
 
         private void StackPanel_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            var selectItem = sender as StackPanel;
-            
-            //ReadNoteFromLocalStorage(selectItem.Children.ElementAt(0).GetValue(Text);
+            var selectItem = sender as TextBox;
+            var selectI = listNote.SelectedItem as NoteItem;
+            var note = ReadNoteFromLocalStorage(selectI.nameFile);
+            this.noteEdit.Text = note;
         }
     }
 }

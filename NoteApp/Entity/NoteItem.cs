@@ -9,6 +9,5 @@ namespace NoteApp.Entity
     class NoteItem
     {
         public string nameFile { get; set; }
-        public string content { get; set; }
     }
 }
